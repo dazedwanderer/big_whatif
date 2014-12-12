@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+clear: both;
+}
+
+.signup_name {font:normal 20px Arial, Helvetica, sans-serif;color:#000000;position: absolute;left: 0px;width: 40%;padding-top:100px;}
+.signup_rest {font:normal 20px Arial, Helvetica, sans-serif;color:#000000;position: absolute;left: 0px;width: 40%;padding-top:150px;}
+
+.slogan {color:#ffffff;font-size:30px;}
+
+/* header */
+.header { background:url(../images/header_bg.jpg) repeat-x top; height:217px;}
+.header_resize { margin:0; padding:0 0 0 0; width:930px;}
+.header .logo {width:auto;float:left;margin:0 auto;padding-top:35px;}
+
+.footer {position:absolute;bottom:0;width:100%;height:100px;}
+.white-text {color:#fff;}
+
+.row-long {
+    display: table;
+}
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+.modal-ish {
+  width: 360px;
+  text-align:center;
+  margin: 30px auto auto auto;
+  overflow: auto;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+}
+
+#content {
+  width:550px;
+  margin: 70px auto auto auto; 
+}
