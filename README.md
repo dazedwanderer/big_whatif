@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 USERPIE
 ============
 
@@ -21,3 +22,9 @@ OTHER PROJECTS
 ===============
 
 RGBHexCode ColourPicker --> http://rgbhexcode.com
+=======
+big_whatif
+==========
+
+All files for project The Big Whatif
+>>>>>>> 3a50e5a2119fbf841034a49f2c880e77192f103c
