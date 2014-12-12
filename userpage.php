@@ -1,5 +1,5 @@
 <?php 
-
+//Test
 	require_once("models/config.php");
 	
 if(!isset($loggedInUser)){	
